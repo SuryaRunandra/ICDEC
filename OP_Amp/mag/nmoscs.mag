@@ -1,0 +1,131 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1729173886
+<< pwell >>
+rect -346 -748 1034 694
+<< psubdiff >>
+rect -291 607 -231 641
+rect 919 607 979 641
+rect -291 581 -257 607
+rect 945 581 979 607
+rect -291 -669 -257 -643
+rect 945 -669 979 -643
+rect -291 -703 -231 -669
+rect 919 -703 979 -669
+<< psubdiffcont >>
+rect -231 607 919 641
+rect -291 -643 -257 581
+rect 945 -643 979 581
+rect -231 -703 919 -669
+<< poly >>
+rect 58 -118 630 56
+<< locali >>
+rect -291 607 -231 641
+rect 919 607 979 641
+rect -291 581 -257 607
+rect -291 -669 -257 -643
+rect 945 581 979 607
+rect 945 -669 979 -643
+rect -291 -703 -231 -669
+rect 919 -703 979 -669
+<< viali >>
+rect 270 607 304 641
+<< metal1 >>
+rect 258 641 316 647
+rect 258 607 270 641
+rect 304 607 316 641
+rect 258 601 316 607
+rect -158 476 -100 566
+rect 270 476 304 601
+rect 788 476 846 566
+rect -190 106 45 476
+rect 642 152 878 476
+rect -190 100 46 106
+rect 12 50 46 100
+rect 12 16 110 50
+rect 270 -13 304 101
+rect 356 100 366 152
+rect 418 100 428 152
+rect 632 100 642 152
+rect 694 100 878 152
+rect 270 -47 418 -13
+rect -190 -214 -6 -162
+rect 46 -214 56 -162
+rect 260 -214 270 -162
+rect 322 -214 332 -162
+rect 384 -190 418 -47
+rect 580 -112 676 -78
+rect 642 -162 676 -112
+rect -190 -538 46 -214
+rect 642 -538 878 -162
+rect -158 -628 -100 -538
+rect 788 -628 846 -538
+<< via1 >>
+rect 366 100 418 152
+rect 642 100 694 152
+rect -6 -214 46 -162
+rect 270 -214 322 -162
+<< metal2 >>
+rect 366 152 418 162
+rect 366 1 418 100
+rect 642 156 698 166
+rect 642 90 698 100
+rect 270 -51 418 1
+rect -10 -162 46 -152
+rect -10 -228 46 -218
+rect 270 -162 322 -51
+rect 270 -224 322 -214
+<< via2 >>
+rect 642 152 698 156
+rect 642 100 694 152
+rect 694 100 698 152
+rect -10 -214 -6 -162
+rect -6 -214 46 -162
+rect -10 -218 46 -214
+<< metal3 >>
+rect 632 156 732 198
+rect 632 100 642 156
+rect 698 100 732 156
+rect 632 88 732 100
+rect 642 14 732 88
+rect -44 -72 732 14
+rect -44 -150 46 -72
+rect -44 -162 56 -150
+rect -44 -218 -10 -162
+rect 46 -218 56 -162
+rect -44 -266 56 -218
+use sky130_fd_pr__nfet_01v8_7CP4KT  sky130_fd_pr__nfet_01v8_7CP4KT_0
+timestamp 1729168331
+transform 1 0 -129 0 1 319
+box -73 -257 73 257
+use sky130_fd_pr__nfet_01v8_7CP4KT  sky130_fd_pr__nfet_01v8_7CP4KT_1
+timestamp 1729168331
+transform 1 0 817 0 1 319
+box -73 -257 73 257
+use sky130_fd_pr__nfet_01v8_7CYQ2Z  sky130_fd_pr__nfet_01v8_7CYQ2Z_0
+timestamp 1729169604
+transform 1 0 817 0 1 -381
+box -73 -257 73 257
+use sky130_fd_pr__nfet_01v8_7CYQ2Z  sky130_fd_pr__nfet_01v8_7CYQ2Z_1
+timestamp 1729169604
+transform 1 0 -129 0 1 -381
+box -73 -257 73 257
+use sky130_fd_pr__nfet_01v8_8UMB6F  sky130_fd_pr__nfet_01v8_8UMB6F_0
+timestamp 1729156818
+transform 1 0 344 0 1 288
+box -344 -288 344 288
+use sky130_fd_pr__nfet_01v8_8UMB6F  sky130_fd_pr__nfet_01v8_8UMB6F_1
+timestamp 1729156818
+transform 1 0 344 0 1 -350
+box -344 -288 344 288
+<< labels >>
+flabel metal1 24 61 24 61 0 FreeSans 1600 0 0 0 D3
+port 0 nsew
+flabel metal1 292 565 292 565 0 FreeSans 1600 0 0 0 GND
+port 1 nsew
+flabel metal2 299 -137 299 -137 0 FreeSans 1600 0 0 0 RS
+port 2 nsew
+flabel metal3 696 31 696 31 0 FreeSans 1600 0 0 0 D4
+port 3 nsew
+<< end >>
